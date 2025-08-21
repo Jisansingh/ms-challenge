@@ -1,0 +1,52 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #0078D7, #00B294);
+  color: #fff;
+  text-align: center;
+}
+
+/* Header */
+header {
+  margin-top: 40px;
+}
+
+#main-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Logo styling */
+.logo {
+  width: 220px;
+  margin: 50px 0;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Footer link (hidden until hover) */
+footer {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
